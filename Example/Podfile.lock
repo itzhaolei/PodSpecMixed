@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - PodSpecMixed (0.1.1):
+  - PodSpecMixed (0.1.2):
     - AFNetworking
 
 DEPENDENCIES:
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  PodSpecMixed: 64ce007c1545f3b03b349175418a0bc9e2b4314e
+  PodSpecMixed: 4b50273b931a76c1387f024c0b3313f0d0b8a18d
 
 PODFILE CHECKSUM: fb2ce8cd1ef76d97f71804a24752d68ca83c0468
 

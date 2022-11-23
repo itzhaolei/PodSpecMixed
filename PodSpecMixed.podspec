@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodSpecMixed'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of PodSpecMixed.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'PodSpecMixed/Classes/**/*'
+  
+  search_paths = ["${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking",]
+    s.pod_target_xcconfig = {
+      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+      'FRAMEWORK_SEARCH_PATHS' => search_paths
+    }
   
   # s.resource_bundles = {
   #   'PodSpecMixed' => ['PodSpecMixed/Assets/*.png']
