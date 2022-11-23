@@ -4,6 +4,6 @@ use_modular_headers!
 platform :ios, '10.0'
 
 target 'PodSpecMixed_Example' do
-  pod 'PodSpecMixed', :path => '../'
+  pod 'PodSpecMixed', :path => '../', :modular_headers => true
 
 end
