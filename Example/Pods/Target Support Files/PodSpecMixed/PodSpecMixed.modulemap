@@ -1,4 +1,4 @@
-framework module PodSpecMixed {
+module PodSpecMixed {
   umbrella header "PodSpecMixed-umbrella.h"
 
   export *
