@@ -1,27 +1,21 @@
 PODS:
-  - AFNetworking (2.7.0):
-    - AFNetworking/NSURLConnection (= 2.7.0)
-    - AFNetworking/NSURLSession (= 2.7.0)
-    - AFNetworking/Reachability (= 2.7.0)
-    - AFNetworking/Security (= 2.7.0)
-    - AFNetworking/Serialization (= 2.7.0)
-    - AFNetworking/UIKit (= 2.7.0)
-  - AFNetworking/NSURLConnection (2.7.0):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.7.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.7.0)
-  - AFNetworking/Security (2.7.0)
-  - AFNetworking/Serialization (2.7.0)
-  - AFNetworking/UIKit (2.7.0):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - PodSpecMixed (0.1.0):
-    - AFNetworking (~> 2.3)
+    - AFNetworking
 
 DEPENDENCIES:
   - PodSpecMixed (from `../`)
@@ -35,8 +29,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  PodSpecMixed: 01868a351926a58f9ee7091ee41299555a6c1927
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  PodSpecMixed: 1b477abd8c8f3327a42d71f1e9ac4a9f9b76722e
 
 PODFILE CHECKSUM: 8fd813d52fee1ee3a359780d946e15e941ff0c0a
 
