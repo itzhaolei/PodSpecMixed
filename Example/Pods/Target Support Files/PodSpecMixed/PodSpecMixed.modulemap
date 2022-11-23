@@ -1,0 +1,6 @@
+framework module PodSpecMixed {
+  umbrella header "PodSpecMixed-umbrella.h"
+
+  export *
+  module * { export * }
+}
